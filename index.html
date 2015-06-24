@@ -1,0 +1,45 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+<title></title> 
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" />
+<link rel="stylesheet" href="css/jw-jqm-cal.css" />
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>  
+<script type="text/javascript" src="js/jw-jqm-cal.js"></script>
+<script src="js/script.js"></script>  
+</head> 
+
+<body>
+<div data-role="page" id="index" data-quicklinks="true">
+    <div data-role="header" data-position="fixed">
+    	<h1>Bali Calendar</h1>
+		<a href="about.html" class="ui-btn ui-btn-right ui-alt-icon ui-nodisc-icon ui-corner-all ui-btn-icon-left ui-icon-user">About</a>
+    </div>
+
+    <div role="main" class="ui-content jqm-content jqm-fullwidth">
+    	<div id="calendar"></div>
+    </div>
+ 
+ <!-- FOOTER /-->   
+    <div data-role="footer" data-position="fixed">
+    	<h1>Copyright &copy; By: Rahtut Aza</h1>
+    </div>
+
+</div>
+</body>
+
+ <!-- POP-UP Event /--> 
+<div id="dialog" data-rel="dialog">
+	<header data-role="header" data-theme="a">
+	<h1>Event</h1>
+	</header>
+	<div data-role="content">
+		<div data-role="content" data-theme="c">
+			<div id="isiPeristiwa"></div>
+		</div>
+	</div>
+</div> 
+</html>
